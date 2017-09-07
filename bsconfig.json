@@ -1,0 +1,6 @@
+{
+	"name": "bs-fizzbuzz",
+	"version": "1.0.0",
+	"bsc-flags": ["-bs-super-errors"],
+	"sources": ["src", "example"]
+}

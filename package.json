@@ -1,0 +1,16 @@
+{
+	"name": "bs-fizzbuzz",
+	"version": "1.0.0",
+	"description": "A ReasonML FizzBuzz library",
+	"author": "Jeff Thompson <mythrndr@gmail.com>",
+	"main": "index.js",
+	"scripts": {
+		"build": "bsb -make-world || true",
+		"start": "npm run-script build && node lib/js/example",
+		"clean": "bsb -clean-world"
+	},
+	"license": "MPL-2.0",
+	"dependencies": {
+		"bs-platform": "^1.9.1"
+	}
+}
