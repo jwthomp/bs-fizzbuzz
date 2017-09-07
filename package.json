@@ -10,7 +10,7 @@
 		"clean": "bsb -clean-world"
 	},
 	"license": "MPL-2.0",
-	"dependencies": {
+	"devDependencies": {
 		"bs-platform": "^1.9.1"
 	}
 }
